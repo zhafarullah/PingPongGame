@@ -83,13 +83,13 @@ This ping pong game will be implemented on an 8x32 LED dot matrix with rules sim
 - Used as a controller for players to move their paddles vertically on the LED matrix.
 
 ## 4. **Limit Switch (Normally Close)**
-- Used for detecting specific mechanical actions or resets during gameplay.
+- Used for triggering smash.
 
 ## 5. **Passive Buzzer**
 - Produces sound effects for events such as scoring, set wins, and game wins.
 
 ## 6. **Button (Normally Open)**
-- Used for triggering actions such as smashing the ball or activating the "Wall of Chance."
+- Used for activating the "Wall of Chance."
 
 ---
 
