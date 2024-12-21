@@ -97,3 +97,5 @@ This ping pong game will be implemented on an 8x32 LED dot matrix with rules sim
 - Ensure proper wiring and configuration of each component with the ESP32 to avoid damage.
 - Test each component individually before integrating them into the system for smooth operation.
 
+![Wiring Schematic](schematic.png)
+
