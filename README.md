@@ -70,3 +70,30 @@ This ping pong game will be implemented on an 8x32 LED dot matrix with rules sim
   2. A player wins a set.
   3. A player wins the game.
 - Each event triggers a unique sound effect.
+
+# Components Used in the Ping Pong Game System
+
+## 1. **ESP32**
+- The primary microcontroller for managing the game logic, controlling peripherals, and interfacing with the components.
+
+## 2. **MAX7219 8x32 LED Dot Matrix Display Module**
+- Used for displaying the game elements, such as paddles, the ball, scores, and game statuses.
+
+## 3. **Potentiometer Slider**
+- Used as a controller for players to move their paddles vertically on the LED matrix.
+
+## 4. **Limit Switch (Normally Close)**
+- Used for detecting specific mechanical actions or resets during gameplay.
+
+## 5. **Passive Buzzer**
+- Produces sound effects for events such as scoring, set wins, and game wins.
+
+## 6. **Button (Normally Open)**
+- Used for triggering actions such as smashing the ball or activating the "Wall of Chance."
+
+---
+
+### Notes:
+- Ensure proper wiring and configuration of each component with the ESP32 to avoid damage.
+- Test each component individually before integrating them into the system for smooth operation.
+
