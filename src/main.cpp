@@ -142,12 +142,12 @@ bool set2LEDStatus = false;
 void loop() {
   unsigned long currentMillis = millis();
    if (isFirstRun) {
-    display.displayText("ZHAFARULLAH AHMAD", PA_CENTER, 50, 1000, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
+    display.displayText("Nama Anda", PA_CENTER, 50, 1000, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
     while (!display.displayAnimate()) {} 
 
     display.displayReset(); 
 
-    display.displayText("5024221004", PA_CENTER, 50, 1000, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
+    display.displayText("Ket lain", PA_CENTER, 50, 1000, PA_SCROLL_LEFT, PA_SCROLL_LEFT);
     while (!display.displayAnimate()) {} 
     display.displayReset(); 
 
