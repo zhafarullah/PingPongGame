@@ -1,6 +1,8 @@
 # Ping Pong with ESP32 and LED dot Matrix 8x32 MAX7219
 ## Introduction
 This ping pong game will be implemented on an 8x32 LED dot matrix with rules similar to real-world ping pong. There are two players, each controlled using a slider potentiometer. Players are required to put the ball into the opponent's goal and defend their own goal from being scored on by deflecting the ball or doing a smash. The player who reaches a score of 11, and the player must be ahead by at least 2 points to win the set. If the score reaches 10-10, the player must continue playing until a difference of 2 points is reached. The player who achieves 3 sets of wins first is considered to have won the game.
+## Demo Video 
+https://youtu.be/FQ0f9AfAwQE
 
 # Technical Rules for the Ping Pong Game System
 
